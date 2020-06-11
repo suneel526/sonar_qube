@@ -1,0 +1,8 @@
+[local]
+ansible-server-0 ansible_ssh_host=ec2-18-222-167-147.us-east-2.compute.amazonaws.com  ansible_ssh_port=22 ansible_ssh_user='jenkins'
+
+[dev]
+ansible-server-1 ansible_ssh_host=ec2-18-218-184-30.us-east-2.compute.amazonaws.com  ansible_ssh_port=22 ansible_ssh_user='ec2-user'
+
+[nexus]
+ansible-server-2 ansible_ssh_host=ec2-3-21-106-238.us-east-2.compute.amazonaws.com  ansible_ssh_port=22 ansible_ssh_user='ec2-user'
