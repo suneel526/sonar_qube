@@ -2,7 +2,7 @@
 # This playbook deploys a simple standalone Tomcat 7 server.
 
 - hosts: nexus
-  remote_user: sonar
+  remote_user: suneel
   become: yes
   become_method: sudo
   roles:
